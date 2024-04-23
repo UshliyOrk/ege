@@ -1,6 +1,6 @@
 from math import ceil 
 
-nums = [int(i.strip()) for i in open("input.txt").readlines()]
+nums = [int(i.strip()) for i in open("26_1.txt").readlines()]
 nums.sort()
 
 a = [i for i in nums if i <= 350]
